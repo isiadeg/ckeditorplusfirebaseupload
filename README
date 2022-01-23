@@ -4,8 +4,11 @@ Just place USER folder  of this repo in the app folder of your app.
 Place the build folder in the src folder of your app
 Place the UPLOAD.TS in the app folder of your app
 register the component in your app module by importing and adding it to bootstrap array.
+USE cmd to cd into the root of your angular app and do 
+  "npm install firebase"
+  Don't import any firebase in the app module. The firebase import you need is already in the user.component.ts
 Then install ckeditor5-angular in the project by doing "npm install --save @ckeditor/ckeditor5-angular"
-Then import it in the app module and then add it to the imports array like below..
+Then import CKEditorModule in the app module and then add it to the imports array like below..
 .....
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular;
 ......
