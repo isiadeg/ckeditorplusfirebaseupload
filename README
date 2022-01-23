@@ -1,6 +1,8 @@
 This repo has a component already set up for ckeditor and firebase upload. The ckeditor can do image upload.
 You can edit where to upload in the upload.ts (that is , maybe another firebase storage location). 
-Just place all contents of this repo in your src folder and
+Just place USER folder  of this repo in the app folder of your app.
+Place the build folder in the src folder of your app
+Place the UPLOAD.TS in the app folder of your app
 register the component in your app module by importing and adding it to bootstrap array.
 Then install ckeditor5-angular in the project by doing "npm install --save @ckeditor/ckeditor5-angular"
 Then import it in the app module and then add it to the imports array like below..
