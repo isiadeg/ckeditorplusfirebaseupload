@@ -1,3 +1,6 @@
+This repo contains files that enable you to set up ckeditor "a WYSIWYG editor" into your angular application 
+along with firebase storage  upload features.
+
 This repo has a component already set up for ckeditor and firebase upload. The ckeditor can do image upload.
 You can edit where to upload in the upload.ts (that is , maybe another firebase storage location). 
 Just place USER folder  of this repo in the app folder of your app.
